@@ -9,3 +9,9 @@ quotes for text fields, unquoted for numeric fields
 */
 SELECT * FROM table WHERE name='Sam';
 SELECT * FROM table WHERE ID=1;
+
+/*
+operators:
+=, <> or !=, >, <, >=, <=, BETWEEN, LIKE, IN
+*/
+SELECT * FROM table WHERE ID>1;
