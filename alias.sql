@@ -22,3 +22,8 @@ Aliases can be combinations of several columns
 */
 SELECT ID + ': ' + name + ' (' + gender + '), ' + num AS studentinfo FROM table;
 SELECT CONCAT(ID, ': ', name, ' (', gender, '), ', num) AS studentinfo FROM table; /* MySQL syntax */
+
+/*
+Using an alias to shorten the syntax
+*/
+SELECT t.ID, t.name, t.gender, s.num FROM table AS t, secondtable AS s;
