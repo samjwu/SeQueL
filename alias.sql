@@ -24,6 +24,6 @@ SELECT ID + ': ' + name + ' (' + gender + '), ' + num AS studentinfo FROM table;
 SELECT CONCAT(ID, ': ', name, ' (', gender, '), ', num) AS studentinfo FROM table; /* MySQL syntax */
 
 /*
-Using an alias to shorten the syntax
+Using an alias to shorten the syntax for query involving two tables and long names
 */
 SELECT t.ID, t.name, t.gender, s.num FROM table AS t, secondtable AS s;
