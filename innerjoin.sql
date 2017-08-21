@@ -2,6 +2,7 @@
 
 
 /*
+Returns records with matching values in all tables
 http://www.dofactory.com/Images/sql-joins.png
 
 syntax
