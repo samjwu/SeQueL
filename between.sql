@@ -18,11 +18,11 @@ SELECT * FROM table WHERE (ID BETWEEN 1 AND 10) AND NOT num IN (99, 100);
 /*
 Alphabetical order of all students with names alphabetically between Ellen and Tracy
 */
-SELECT * FROM table WHERE name BETWEEN 'Ellen' AND 'Tracy';
+SELECT * FROM table WHERE name BETWEEN 'Ellen' AND 'Tracy'
 ORDER BY name; /* order names alphabetically */
 
 /*
 Alphabetical order of all students with names alphabetically outside of Ellen and Tracy
 */
-SELECT * FROM table WHERE name NOT BETWEEN 'Ellen' AND 'Tracy';
+SELECT * FROM table WHERE name NOT BETWEEN 'Ellen' AND 'Tracy'
 ORDER BY name; /* order names alphabetically */
