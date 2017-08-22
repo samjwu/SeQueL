@@ -21,3 +21,16 @@ conditions
 SELECT name, num FROM table
 UNION
 SELECT name, num FROM secondtable;
+
+SELECT name, num FROM table
+UNION ALL
+SELECT name, num FROM secondtable;
+
+/*
+Union of all records in two tables
+using alias for naming a column (tablename)
+and strings for values in tablename column
+*/
+SELECT 'table' AS tabletype, ID, name, num FROM table
+UNION ALL
+SELECT 'secondtable', ID, name, num FROM secondtable;
