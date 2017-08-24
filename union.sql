@@ -4,14 +4,14 @@
 /*
 syntax
 (distinct values)
-SELECT columnA, columnB, ... FROM tableA
+SELECT colA, colB, ... FROM tableA
 UNION
-SELECT columnA, columnB, ... FROM tableB
+SELECT colA, colB, ... FROM tableB
 
 (duplicate values)
-SELECT columnA, columnB, ... FROM tableA
+SELECT colA, colB, ... FROM tableA
 UNION ALL
-SELECT columnA, columnB, ... FROM tableB
+SELECT colA, colB, ... FROM tableB
 
 conditions
 -number of columns must be the same in each SELECT statement

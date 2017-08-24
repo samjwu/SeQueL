@@ -4,7 +4,7 @@
 /*
 sorts result-set in ascending order by default
 syntax
-SELECT columnA, columnB, ... FROM table ORDER BY columnA, columnB, ... ASC|DESC
+SELECT colA, colB, ... FROM table ORDER BY colA, colB, ... ASC|DESC
 */
 SELECT * FROM table ORDER BY ID;
 SELECT * FROM table ORDER BY name DESC;

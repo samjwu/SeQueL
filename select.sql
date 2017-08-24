@@ -3,7 +3,7 @@
 
 /*
 syntax
-SELECT columnA, columnB, ... FROM table
+SELECT colA, colB, ... FROM table
 SELECT * FROM table
 */
 SELECT name, num FROM table;
